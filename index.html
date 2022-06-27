@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake website</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section id="main">
+        <Nav>
+            <div class="brand">
+                <img src="./assets/img/logo.png" height="40px" alt="">
+                <i id="toggle" class="fa-solid fa-bars"></i>
+            </div>
+
+            <ul class="nav-items">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </Nav>
+
+        <div class="content">
+           <div>
+            <h1> Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, similique delectus. Sequi iste nisi numquam unde</p>
+            <button> EXPLORE </button>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="products">
+       
+        <div class="tittle">
+           
+            <h2>PRODUCTS</h2> 
+           
+            <div class="description">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente dignissimos perferendis possimus ut laborum minus autem </p>
+
+           </div>
+    
+        </div>
+
+        <div class="items">
+            <div class="cards">
+                <div class="cards-description">
+                    <img src="./assets/img/cake.png" alt="">
+                    <h3> Choclate truffle</h3>
+                    <h5>₹ 499 /kg</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo atque sunt distinctio, ducimus odio beatae deleniti iste! Culpa</p>
+                    <button>Add to cart</button>
+                </div>
+               
+            </div>
+
+            <div class="cards">
+                <div class="cards-description">
+                    <img src="./assets/img/cake.png" alt="">
+                    <h3> Choclate truffle</h3>
+                    <h5>₹ 499 /kg</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo atque sunt distinctio, ducimus odio beatae deleniti iste! Culpa</p>
+                    <button>Add to cart</button>
+                </div>
+               
+            </div>
+
+            <div class="cards">
+                <div class="cards-description">
+                    <img src="./assets/img/cake.png" alt="">
+                    <h3> Choclate truffle</h3>
+                    <h5>₹ 499 /kg</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo atque sunt distinctio, ducimus odio beatae deleniti iste! Culpa</p>
+                    <button>Add to cart</button>
+                </div>
+               
+            </div>
+
+            <div class="cards">
+                <div class="cards-description">
+                    <img src="./assets/img/cake.png" alt="">
+                    <h3> Choclate truffle</h3>
+                    <h5>₹ 499 /kg</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo atque sunt distinctio, ducimus odio beatae deleniti iste! Culpa</p>
+                    <button>Add to cart</button>
+                </div>
+               
+            </div>
+              
+
+        </div>
+    </section>
+
+        <footer>
+
+            <div class="content">
+                 <div class="compony">
+                    <img src="./assets/img/logo.png" height="40px" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique necessitatibus maxime dignissimos quo, suscipit praesentium </p>
+
+                 </div>
+                 <div class="address">
+                     <h5>Address</h5>
+                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint labore modi eos maxime veritatis illo</p>
+                 </div>
+            </div>
+            <div class="copyright">
+                <p> Copyright 2022 ©. All Rights Reserved. Privacy Policy </p>
+            </div>
+        </footer>
+
+        <script>
+
+            let toggle = document.querySelector('#toggle');
+            toggle.addEventListener('click', () => {
+                let navItems = document.querySelector('.nav-items')
+                if(navItems.style.display == 'none') {
+                   navItems.style.display = 'block'  
+                }else{
+                    navItems.style.display = 'none'
+                }
+                
+
+            } )
+
+
+        </script>
+    
+</body>
+</html>
